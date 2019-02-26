@@ -1,0 +1,321 @@
+@font-face{
+	font-family: RoboLight;
+	src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+@font-face{
+	font-family: RoboRegular;
+	src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	background-color: #e9eae2;
+	color: #fff;
+}
+img{
+	/*width: 100%;*/
+}
+.span_bold{
+	font-weight: bold;
+}
+.items{
+	position: relative;
+}
+.main__contener{
+	max-width: 1580px;
+	margin: 0 auto;
+}
+header{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+header .item1{
+	background: url('../../assets/img/img.png') center center no-repeat;
+	background-size: inherit;
+	flex: 1 1 auto;
+	min-width: 456px;
+}
+header .item1 .logo__contener{
+	padding-left: 170px;
+	padding-top: 50px;
+}
+header .item1 .logo{
+	max-width: 160px;
+	width: 100%;
+}
+header .item1 .logo__discription{
+	font-family: RoboRegular;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 18px;
+	color: #505452;
+	white-space: nowrap;
+	padding-left: 170px;
+}
+header .item1 .socio{
+	padding-top: 60px;
+    padding-left: 188px;
+    padding-bottom: 91px;
+}
+header .item1 .socio a{
+	/*display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	height: 30px;*/
+}
+header .item1 .socio img{
+	margin-right: 11px;
+	transform: scale(1,1);
+	border: 2px solid transparent;
+	border-radius: 7px;
+	transition: all .3s;
+	padding: 5px;
+}
+header .item1 .socio img:hover{
+	cursor: pointer;
+	transform: scale(1.1,1.1);
+	border: 2px solid #ebb240;
+}
+
+header .item2{
+	background-color: #7acec3;
+	width: 465px;
+	text-align: center;
+	position: relative;
+}
+header .item2 .line{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+header .item2 .menu{
+    display: inline-block;
+    border: 3px solid #e9eae2;
+    padding: 45px 40px;
+    position: relative;
+    top: 50px;
+    transform: scale(1,1);
+    transition: all .3s;
+}
+header .item2 .menu:hover{
+	cursor: pointer;
+	transform: scale(.9,.9);
+    box-shadow: 0px 0px 7px 2px #ebb240;
+    border: 3px solid #ebb240;
+}
+header .item2 .address{
+	font-family: RoboRegular;
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 14px;
+	text-align: left;
+	padding-top: 146px;
+    padding-left: 61px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+header .item2 .email{
+	font-family: RoboRegular;
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 14px;
+	text-align: left;
+    padding-top: 45px;
+    padding-left: 137px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+section.content__contener{
+	position: relative;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+section.content__contener .imgs{
+	width: 100%;
+}
+section.content__contener .items{
+
+}
+section.content__contener .item1{
+	background-color: #ebb240;
+	width: 465px;
+}
+section.content__contener .item1 ul{
+	list-style-type: none;
+    list-style-position: inside;
+    line-height: 14px;
+    position: absolute;
+    top: 170px;
+    left: 164px;
+}
+section.content__contener .item1 ul li a{
+	font-family: RoboRegular;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	transition: all .3s;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+section.content__contener .item1 ul li a img{
+	display: none;
+	position: absolute;
+	top:0;
+	left: -27px;
+}
+
+section.content__contener .item1 ul li a:hover{
+	cursor: pointer;
+	color: #000;	
+}
+section.content__contener .item1 ul li:hover img{
+	display: block;
+}
+section.content__contener .item1 p{
+	font-family: RoboRegular;
+	font-size: 48px;
+	text-transform: uppercase;
+    position: absolute;
+    top: 303px;
+    left: 217px;
+}
+section.content__contener .item2{
+	background-color: #fff;	
+	color: #505452;
+	flex: 1 1 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+section.content__contener .item2 h3{
+	font-family: RoboLight;
+	padding-top: 87px;
+	padding-bottom: 20px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+section.content__contener .item2 .discription{
+	font-family: RoboLight;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 12px;
+	margin-left: 100px;
+	padding-bottom: 88px;
+}
+section.content__contener .item2 .view{
+	font-family: RoboLight;
+	margin-left: 100px;
+	margin-bottom: 115px;
+	font-size: 18px;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+section.content__contener .item2 .view img{
+	padding-right: 10px;
+	transition: all .3s;
+}
+section.content__contener .item2 .heart{
+	text-align: center;
+}
+section.content__contener .item2 .numbers{
+	font-family: RoboLight;
+	text-align: center;
+	color: red;
+	font-size: 11px;
+	line-height: 12px;
+}
+section.content__contener .item3{
+	width: 465px;
+	color: #505452;
+	display: flex;
+    flex-direction: column;
+}
+section.content__contener .item3 h3{
+	font-family: RoboLight;
+	font-size: 24px;
+	padding-top: 37px;
+	padding-left: 43px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+section.content__contener .item3 .discription{
+	font-family: RoboLight;
+	font-size: 12px;
+	line-height: 12px;
+	padding-left: 43px;
+	padding-bottom: 20px;
+}
+section.content__contener .item3 .description__p{
+	font-family: RoboLight;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+section.content__contener .item3 .view{
+	font-family: RoboLight;
+	font-size: 18px;
+	line-height: 12px;
+	text-transform: uppercase;
+	padding-left: 43px;
+	padding-bottom: 28px;
+}
+section.content__contener .item3 .view img{
+	padding-right: 10px;
+	transition: all .3s;
+}
+section.content__contener .item3 .heart{
+	text-align: center;
+}
+section.content__contener .item3 .numbers{
+	font-family: RoboLight;
+	text-align: center;
+	color: red;
+	font-size: 11px;
+	line-height: 12px;
+	padding-bottom: 30px;
+}
+section.content__contener .item3 .row1{
+	background-color: #dfe0d9;
+	display: flex;
+	height: 100%;
+}
+section.content__contener .item3 .row1__name{
+    flex: 1 1 60%;
+    padding-right: 5px;
+}
+section.content__contener .item3 .row2__name{
+	flex: 1 1 60%;	
+	padding-right: 5px;
+}
+section.content__contener .item3 .row2{
+	background-color: #fff;	
+	color: #505452;
+	display: flex;
+	height: 100%;
+	text-transform: uppercase;
+}
+section.content__contener .item3 .row__img{
+	padding: 20px;
+}
+section.content__contener .items .view:hover img{
+	padding-right: 0px;
+	transform: rotate(90deg);
+}
+/*@media screen and (min-width:321px) and (max-width:1024px){*/
+
+@media screen and (max-device-width:1024px){
+	section.content__contener .item3{
+		width: 100%;
+	}
+	section.content__contener .item1{
+		width: 100%;
+	}
+}
